@@ -4,7 +4,7 @@ import tensorflow as tf
 from PIL import Image
 
 # Load trained model
-model = tf.keras.models.load_model("Chest X-Ray Images (Pneumonia)")
+model = tf.keras.models.load_model("Chest_X_Ray_Images_(Pneumonia).py")
 
 st.title("🩺 Pneumonia Detection from Chest X-Ray")
 st.subheader("AI Assisted Screening Tool")
